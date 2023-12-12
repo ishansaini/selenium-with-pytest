@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pytest = "*"
+selenium = "*"
+urllib3 = "==1.26.15"
+pytest-xdist = "*"
+pytest-bdd = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
